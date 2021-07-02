@@ -1,0 +1,12 @@
+Source: firmware-rtw88
+Section: non-free/kernel
+Priority: extra
+Maintainer: Matias De lellis <mati86dl@gmail.com>
+Build-Depends: debhelper (>= 9.0.0)
+Standards-Version: 3.9.8
+Vcs-Git: https://github.com/HuayraLinux/rtw88-dkms.git
+
+Package: firmware-rtw88
+Architecture: all
+Depends: ${misc:Depends}
+Description: Firmwares nuevos para dispositivos realtek rtw88
